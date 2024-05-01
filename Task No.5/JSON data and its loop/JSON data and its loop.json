@@ -1,0 +1,160 @@
+--------------------------------------------------------------------------------------------------------------------------------------
+                                                                   Resume in JSON
+--------------------------------------------------------------------------------------------------------------------------------------
+{
+  "mydetail": {
+    "name": "harish thangavel p",
+    "label": "nil",
+    "picture": "nil",
+    "email": "harishthangavelp@gmail.com",
+    "phone": "360296093",
+    "degree": "B.E.,ECE",
+    "website": "NIL",
+    "summary": "nil",
+    "location": {
+      "address": "Kanchipuram",
+      "postalCode": "631502",
+      "city": "Kanchipuram",
+      "countryCode": "631 502",
+      "region": "Indian"
+    },
+    "profiles": [
+      {
+        "network": "A social media or other profile that you would like to include (e.g. LinkedIn, Twitter)",
+        "username": "Your username on this network",
+        "url": "A URL to your user profile page"
+      }
+    ]
+  },
+  "work": [
+    {
+      "company": "CTTI",
+      "position": "GAT",
+      "website": "The URL for the employer's website",
+      "startDate": "september",
+      "endDate": "NIL since still going",
+      "summary": "work in production dept",
+      "highlights": [
+        "nil"
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "panimalar eng college",
+      "area": "ECE",
+      "studyType": "August",
+      "startDate": "2019",
+      "endDate": "2023",
+      "gpa": "8.55",
+      "courses": [
+        ""
+      ]
+    }
+  ],
+  "skills": [
+    {
+      "name": "It job skills (e.g. 'Programming Languages')",
+      "level": "3",
+      "keywords": [
+        "HTML, CSS, JS"
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "language": "Tamil and English",
+      "fluency": "Great"
+    }
+  ],
+  "interests": [
+    {
+      "name": "FSD",
+      "keywords": [
+        "(Cricket)"
+      ]
+    }
+  ]
+}
+
+"mydetail": [
+    {
+    "name": "harish thangavel p",
+    // "label: "nil",
+    // "picture": "nil",
+    // "email: "harishthangavelp@gmail.com",
+    "phone": "360296093",
+    "degree": "B.E.,ECE",
+    "website": "NIL",
+    "summary": "nil",
+    "location": {
+      "address": "Kanchipuram",
+      "postalCode": "631502",
+      "city": "Kanchipuram",
+      "countryCode": "631 502",
+      "region": "Indian"
+    },
+}
+]
+
+    "profiles": [
+      {
+        "network": "A social media or other profile that you would like to include (e.g. LinkedIn, Twitter)",
+        "username": "Your username on this network",
+        "url": "A URL to your user profile page"
+    
+      }
+    ]
+
+
+
+  "work": [
+    {
+      "company": "CTTI",
+      "position": "GAT",
+      "website": "The URL for the employer's website",
+      "startDate": "september",
+      "endDate": "NIL since still going",
+      "summary": "work in production dept",
+      "highlights": [
+        "nil"
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "panimalar eng college",
+      "area": "ECE",
+      "studyType": "August",
+      "startDate": "2019",
+      "endDate": "2023",
+      "gpa": "8.55",
+      "courses": [
+        ""
+      ]
+    }
+  ],
+  skills: [
+    {
+      "name": "It job skills (e.g. 'Programming Languages')",
+      "level": "3",
+      "keywords": [
+        "HTML, CSS, JS"
+      ]
+    }
+  ],
+  languages: [
+    {
+      "language": "Tamil and English",
+      "fluency": "Great"
+    }
+  ],
+  interests: [
+    {
+      "name": "FSD",
+      "keywords": [
+        "(Cricket)"
+      ]
+    }
+  ]
+--------------------------------------------------------------------------------------------------------------------------------------

@@ -1,0 +1,61 @@
+--------------------------------------------------------------------------------------------------------------------------------------
+                                                            Document Objects
+--------------------------------------------------------------------------------------------------------------------------------------
+=> The Document Object Model (DOM) is a programming interface for HTML(HyperText Markup Language) and XML(Extensible Markup Language)
+documents. It defines the logical structure of documents and the way a document is accessed and manipulated
+The DOM is a W3C (World Wide Web Consortium) standard and it defines a standard for accessing documents.
+The W3C Dom standard is divided into three different parts:
+   Core DOM – standard model for all document types
+   XML DOM – standard model for XML documents
+   HTML DOM – standard model for HTML documents
+=> The Document Object Model (DOM) is essential in web development for several reasons:
+a) Dynamic Web Pages: It allows you to create dynamic web pages. It enables the JavaScript to access and manipulate page content,
+structure, and style dynamically which gives interactive and responsive web experiences, such as updating content without reloading
+the entire page or responding to user actions instantly.
+b) Interactivity: With the DOM, you can respond to user actions (like clicks, inputs, or scrolls) and modify the web page accordingly.
+c) Content Updates: When you want to update the content without refreshing the entire page, the DOM enables targeted changes making the
+web applications more efficient and user-friendly.
+d) Cross-Browser Compatibility: Different browsers may render HTML and CSS in different ways. The DOM provides a standardized way to
+interact with page elements.
+e) Single-Page Applications (SPAs): Applications built with frameworks such as React or Angular, heavily rely on the DOM for efficient
+rendering and updating of content within a single HTML page without reloading the full page.
+--------------------------------------------------------------------------------------------------------------------------------------
+                                                            Structure of DOM
+
+=> DOM can be thought of as a Tree or Forest (more than one tree). The term structure model is sometimes used to describe the tree-like
+representation of a document. Each branch of the tree ends in a node, and each node contains objects. Event listeners can be added to
+nodes and triggered on an occurrence of a given event. One important property of DOM structure models is structural isomorphism: if a
+ny two DOM implementations are used to create a representation of the same document, they will create the same structure model, with
+precisely the same objects and relationships
+--------------------------------------------------------------------------------------------------------------------------------------
+                                                        Document Object Methods
+
+a) write(“string”)----------------------Writes the given string on the document.
+b) getElementById()---------------------returns the element having the given id value.
+c) getElementsByName()------------------returns all the elements having the given name value.
+d) getElementsByTagName()---------------returns all the elements having the given tag name.
+e) getElementsByClass-------------------returns all the elements having the given class name
+--------------------------------------------------------------------------------------------------------------------------------------
+                                                           Window Objects
+--------------------------------------------------------------------------------------------------------------------------------------
+=> The window object is supported by all browsers. It represents the browser's window. All global JavaScript objects, functions, and
+variables automatically become members of the window object. Global variables are properties of the window object. Global functions
+are methods of the window object. Even the document object (of the HTML DOM) is a property of the window object:
+window.document.getElementById("header"); is the same as: document.getElementById("header");
+--------------------------------------------------------------------------------------------------------------------------------------
+                                                      Browser Object Model (BOM)
+There are no official standards for the Browser Object Model (BOM). Since modern browsers have implemented (almost) the same methods
+and properties for JavaScript interactivity, it is often referred to, as methods and properties of the BOM.
+Two properties can be used to determine the size of the browser window. Both properties return the sizes in pixels:
+A) window.innerHeight - the inner height of the browser window (in pixels)
+B) window.innerWidth - the inner width of the browser window (in pixels)
+--------------------------------------------------------------------------------------------------------------------------------------
+                                                      Window Object Methods
+
+a) alert()-------------------displays the alert box containing message with ok button.
+b) confirm()-----------------displays the confirm dialog box containing message with ok and cancel button.
+c) prompt()------------------displays a dialog box to get input from the user.
+d) open()--------------------opens the new window.
+e) close()-------------------closes the current window.
+f) setTimeout()--------------performs action after specified time like calling function, evaluating expressions etc.
+--------------------------------------------------------------------------------------------------------------------------------------

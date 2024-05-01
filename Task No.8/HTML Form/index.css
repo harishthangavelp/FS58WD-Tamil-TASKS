@@ -1,0 +1,169 @@
+@media only screen and (max-width: 600px) {
+body{
+    background-color: gold;
+}
+  }
+#txt1{
+    float: left;
+    font-weight: bold;
+}
+#txt2{
+    float: left;
+    color:red;
+} 
+#txt3{
+    float: left;
+    transform: translate(1px,-3.5em);
+    font-weight: bold;
+    display: block;
+}
+#txt4{
+    float: left;
+    transform: translate(1px,-3.5em);
+    color:red;
+    display: block;
+} 
+.m1{
+    margin-right: 1em;
+}
+.m3{
+    transform: translate(-9.3em,-4.2em);
+}
+.iptxt1{
+ transform: translate(5px,-1.0em);
+}
+.iptxt2{
+    transform: translate(12.5em,-3.1em);
+}
+
+#txt5{
+    float: left;
+    transform: translate(0px,-1.5em);
+    font-weight: bold;
+    display: block;
+}
+#txt6{
+    float: left;
+    transform: translate(0px,-1.5em);
+    color:red;
+    display: block;
+}
+
+.checked {
+    color: gray;
+    transform: translate(15px,-1.5em);
+  }
+
+  .pretxt{
+    transform: translate(-0.5em,-2.5em);
+  }
+
+#txt7{
+    float: left;
+    transform: translate(-0em,-2.5em);
+    font-weight: bold;
+    display: block;
+}
+#txt8{
+    float: left;
+    transform: translate(-0em,-2.5em);
+    color:red;
+    display: block;
+}
+
+.buxt1{
+    transform: translate(11.5em,-2.5em);
+}
+.buxt2{
+    transform: translate(21.5em,-4.6em);
+}
+.buxt3{
+    transform: translate(29.5em,-6.75em);
+}
+.buxt4{
+    transform: translate(37em,-8.80em);
+}
+.buxt5{
+    transform: translate(44em,-10.93em);
+}
+
+.st{
+    transform: translate(1em,-10em);
+}
+
+.radiobuttons1{
+    display: flex;
+    flex-direction: row-reverse;
+    transform: translate(-37em,-16.5em);
+    gap: 100px;
+}
+.radiobuttons2{
+    display: flex;
+    flex-direction: row-reverse;
+    transform: translate(-37em,-15.5em);
+    gap: 100px;
+}
+.radiobuttons3{
+    display: flex;
+    flex-direction: row-reverse;
+    transform: translate(-37em,-14.52em);
+    gap: 100px;
+}
+
+#txt9{
+    float: left;
+    transform: translate(-0em,-13.5em);
+    font-weight: bold;
+    display: block;
+}
+#txt10{
+    float: left;
+    transform: translate(-0em,-13.5em);
+    color:red;
+    display: block;
+}
+
+.likely{
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 50px;
+    transform: translate(-38.3em,-14.5em);
+}
+
+.sts{
+    transform: translate(1em,-15em);
+}
+
+.radiobuttons4{
+    display: flex;
+    flex-direction: row-reverse;
+    transform: translate(-41em,-23.5em);
+    gap: 80px;
+}
+.radiobuttons5{
+    display: flex;
+    flex-direction: row-reverse;
+    transform: translate(-41em,-22em);
+    gap: 80px;
+}
+.radiobuttons6{
+    display: flex;
+    flex-direction: row-reverse;
+    transform: translate(-41em,-20em);
+    gap: 80px;
+}
+
+#txt11{
+    float: left;
+    transform: translate(-0em,-19em);
+    font-weight: bold;
+    display: block;
+}
+
+#w3review{
+    transform: translate(-18em,-21em);
+}
+
+#ip{
+    transform: translate(-75em,-19em);
+}

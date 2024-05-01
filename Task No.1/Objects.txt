@@ -1,0 +1,60 @@
+--------------------------------------------------------------------------------------------------------------------------------------
+                                                                  Objects
+--------------------------------------------------------------------------------------------------------------------------------------
+Objects, in JavaScript, is it’s most important data-type and forms the building blocks for modern JavaScript. These objects are quite
+different from JavaScript’s primitive data-types(Number, String, Boolean, null, undefined and symbol) in the sense that while these
+primitive data-types all store a single value each (depending on their types).
+Objects are more complex and each object may contain any combination of these primitive data-types as well as reference data-types.
+An object, is a reference data type. Variables that are assigned a reference value are given a reference or a pointer to that value.
+That reference or pointer points to the location in memory where the object is stored. The variables don’t actually store the value
+--------------------------------------------------------------------------------------------------------------------------------------
+* A JavaScript object is a collection of named values having state and behavior
+* Objects are the most important data-type and forms the building blocks for modern JavaScript
+* objects in JavaScript may be defined as an unordered collection of related data of primitive or reference types 
+in the form of “key: value” pairs
+* These keys can be variables or functions and are called properties and methods respectively in the context of an object
+* Syntax for object is var <object-name> = {key1: value1, key2: value2,... keyN: valueN};
+* Basic example : var myCar = new Object();
+ myCar.make = 'Cars';
+ myCar.model = 'Hyundai';
+ myCar.year = 2024;
+* Basic Program
+------qn--------
+var book1={
+    title:"Harry Potter",
+    pages: 1000,
+    isAvail: true,
+}
+var book2={
+    title:"Harry Potter-2",
+    pages: 1050,
+    isAvail: false,
+}
+console.log(book1);
+console.log("Book1: ",book1.title);
+console.log("Book1: ",book2["pages"]);
+-------sol------
+{title: 'Harry Potter', pages: 1000, isAvail: true}
+Book1:  Harry Potter
+Book1:  1050
+--------------------------------------------------------------------------------------------------------------------------------------
+                                                            Object Methods
+Objects can also have methods. Methods are actions that can be performed on objects. Methods are stored in properties as function
+definitions. A method is a function stored as a property.
+
+Example: 
+var person = {
+  firstName: "John",
+  lastName : "Doe",
+  id       : 5566,
+  fullName : function() {
+    return this.firstName + " " + this.lastName;
+  }
+};
+--------------------------------------------------------------------------------------------------------------------------------------
+                                                         Accessing Object Methods
+Syntax for accessing object is: 
+objectName.methodName()
+Example
+name = person.fullName();
+--------------------------------------------------------------------------------------------------------------------------------------
