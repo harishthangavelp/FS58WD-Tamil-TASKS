@@ -1,0 +1,96 @@
+* {
+    box-sizing: border-box;
+  }
+  
+body{
+  background-color: blue;
+}
+
+  /* Create three columns of equal width */
+  .columns {
+    /* float: left; */
+    width: 33.3%;
+    padding: 8px;
+  }
+
+  .top{
+    color: gray;
+    background-color: whitesmoke;
+    text-align: center;
+    font-size: small;
+    font-family:'monospace';
+    font-weight: bold;
+  }
+  
+  /* Style the list */
+  .price {
+    list-style-type: none;
+    border: 1px solid whitesmoke;
+    background-color: whitesmoke;
+    margin: 0;
+    padding: 0;
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+  }
+  
+  /* Add shadows on hover */
+  .price:hover {
+    box-shadow: 0 8px 12px 0 rgba(0,0,0,0.2)
+  }
+  
+  .price li {
+    /* border: 1px solid dodgerblue; */
+    /* padding: 20px; */
+    text-align: center;
+  }
+
+  .status1{
+    background-color: whitesmoke;
+    color: black;
+    font-family: 'Arial';
+    font-weight:200;
+text-align: center;
+  }
+
+  .status2{
+    color: black;
+    background-color: whitesmoke;
+    font-family: 'Arial';
+    font-weight:200;
+text-align: center;
+  }
+
+  .status3{
+    color: black;
+    background-color: whitesmoke;
+    font-family: 'Arial';
+    font-weight:200;
+text-align: center;
+  }
+  
+  .grey {
+    background-color: white;
+    text-align: center;
+    font-family:'serif';
+    font-weight: bolder;
+    font-size: 30px;
+  }
+  
+  /* The "Sign Up" button */
+  .button {
+    background-color:dodgerblue;
+    border: none;
+    color: white;
+    padding: 10px 100px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 18px;
+  }
+  
+  /* Change the width of the three columns to 100%
+  (to stack horizontally on small screens) */
+  @media only screen and (max-width: 600px) {
+    .columns {
+      width: 100%;
+    }
+  }
