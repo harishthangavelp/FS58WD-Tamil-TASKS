@@ -5,7 +5,7 @@ container.innerHTML = `
 <h1 id="title" class="text-center">Countries & Weather</h1><br/><br/>
 <div class="row" id="content">
     <div class="text-center">
-        <img class="loader" src="loading__.gif">
+        <img class="loader" src="./images/loading__.gif">
     </div>
 </div>
 `;
