@@ -1,6 +1,6 @@
 body {
   font-family: 'dm sans', Sans-serif;
-  
+  background-image: linear-gradient(to right, seagreen,seagreen);
 }
 
 .nav-link {
