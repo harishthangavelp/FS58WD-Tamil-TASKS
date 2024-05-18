@@ -1,5 +1,5 @@
 {
-  "name": "use-context",
+  "name": "react-formik",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -9,8 +9,14 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "autoprefixer": "^10.4.19",
+    "formik": "^2.4.6",
+    "postcss-cli": "^11.0.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.23.1",
+    "tailwindcss": "^3.4.3",
+    "yup": "^1.4.0"
   },
   "devDependencies": {
     "@types/react": "^18.0.26",
