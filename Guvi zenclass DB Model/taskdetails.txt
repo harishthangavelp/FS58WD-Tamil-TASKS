@@ -1,0 +1,24 @@
+Design DB model for Guvi Zen class:-
+
+    1.zen portel Table
+        => id
+        => user_id
+    2.User_details Table
+        => id
+        => name
+        => email
+        => mobile number
+        => address
+        => status
+    3.user_portel Table
+        => id
+        => DashBoard
+        => task
+        => Queries
+        => mokeInterview
+        => learderBoard
+    4.Payment Table
+        => id
+        => method
+        => coures name
+        => status
